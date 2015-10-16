@@ -232,18 +232,24 @@ form{
 .top-bar{
   background-color: #80292F;
 }
-#elementos_fijos{
+.elementos_fijos{
   display: block;
   z-index: 1;
   position: absolute;
-}
-#elementos_fijos p{
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 30px; 
   text-align: center;
-  position: relative;
+  margin-top: 6em;
 }
+#boton_estatico{
+  display: block;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+
+}
+
 
 /* Estilos Sofi */
 
@@ -335,6 +341,10 @@ form{
   height: 265px;
     }
 
+.elementos_fijos{
+  
+  margin-top: 1.4em;
+}
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
